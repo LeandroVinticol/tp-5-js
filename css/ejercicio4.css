@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+.reloj-container {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.fecha {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hora {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
