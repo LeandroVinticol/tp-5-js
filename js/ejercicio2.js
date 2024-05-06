@@ -66,9 +66,8 @@ class Persona {
   }
 }
 
-
 document.getElementById("personaForm").addEventListener("submit", (event) => {
-  event.preventDefault(); 
+  event.preventDefault();
 
   // Obtener los valores del formulario
   const nombre = document.getElementById("nombreInput").value;
@@ -79,7 +78,6 @@ document.getElementById("personaForm").addEventListener("submit", (event) => {
   const altura = parseFloat(document.getElementById("alturaInput").value);
   const añoNacimiento = parseInt(document.getElementById("anioInput").value);
 
- 
   const persona = new Persona(
     nombre,
     edad,
