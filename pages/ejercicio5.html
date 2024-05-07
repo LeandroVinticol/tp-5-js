@@ -16,8 +16,22 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="../css/ejercicio5.css" />
   </head>
   <body>
+    <div class="container">
+      <h1>Cronómetro</h1>
+      <div id="cronometro" class="cronometro">00:00:00</div>
+      <div class="botones">
+        <button id="iniciarBtn" onclick="iniciarCronometro()">Iniciar</button>
+        <button id="pausarBtn" onclick="pausarCronometro()" disabled>
+          Pausar
+        </button>
+        <button id="resetBtn" onclick="resetearCronometro()" disabled>
+          Resetear
+        </button>
+      </div>
+    </div>
     <script src="../js/ejercicio5.js"></script>
   </body>
 </html>
