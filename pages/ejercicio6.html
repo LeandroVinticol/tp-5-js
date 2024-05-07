@@ -16,8 +16,19 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="../css/ejercicio6.css">
   </head>
   <body>
+    <div class="container">
+      <h1>Temporizador</h1>
+      <div class="temporizador-container">
+          <input type="text" id="tiempoInput" placeholder="Ingrese el tiempo en formato HH:MM:SS">
+          <button id="iniciarBtn" onclick="iniciarTemporizador()">Iniciar</button>
+          <button id="pausarBtn" onclick="pausarTemporizador()" disabled>Pausar</button>
+          <button id="resetBtn" onclick="resetearTemporizador()" disabled>Reset</button>
+      </div>
+      <div id="temporizador" class="temporizador">00:00:00</div>
+  </div>
     <script src="../js/ejercicio6.js"></script>
   </body>
 </html>
